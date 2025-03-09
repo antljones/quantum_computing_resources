@@ -1,0 +1,22 @@
+
+Super position 
+Entanglement
+Interference
+Bras and Kets
+NOT Gates
+CNOT gates 
+Bloch Sphere
+-------------------------------------------------------------------------
+Krotov D. Demystifying Qubits. A Beginners Guide to Quantum Computing
+
+Hadamard gate (superposition)
+-------------------------------------------------------------------------
+https://en.wikipedia.org/wiki/Quantum_logic_gate
+
+-------------------------------------------------------------------------
+Pauli Operators:
+https://www.sciencedirect.com/topics/computer-science/pauli-operator#:~:text=A%20Pauli%20Operator%20refers%20to,be%20represented%20in%20matrix%20form.
+
+>>>See NoteBooks\HelloWorldSimple.ipynb here
+
+ 
