@@ -1,4 +1,5 @@
 install anaconda
+pip install qiskit
 pip install qiskit_aer
 pip install pylatexenc
 -------------------------------------------------------------------------
