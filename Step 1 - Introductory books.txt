@@ -1,3 +1,7 @@
+install anaconda
+pip install qiskit_aer
+pip install pylatexenc
+-------------------------------------------------------------------------
 
 Super position 
 Entanglement
@@ -17,6 +21,7 @@ https://en.wikipedia.org/wiki/Quantum_logic_gate
 Pauli Operators:
 https://www.sciencedirect.com/topics/computer-science/pauli-operator#:~:text=A%20Pauli%20Operator%20refers%20to,be%20represented%20in%20matrix%20form.
 
+https://www.youtube.com/watch?v=93-zLTppFZw
 >>>See NoteBooks\HelloWorldSimple.ipynb here
 
  
