@@ -1,0 +1,16 @@
+CZ gate represented as a matrix:
+
+| 1  0  0  0 |
+| 0  1  0  0 |
+| 0  0  1  0 |
+| 0  0  0  -1 |
+
+phase parameter value:
+0 I-gate, 
+π/4 T-gate, 
+π/2 S-gate
+π Z-gate
+
+The RY Gate in Qiskit can be applied to any Qubit by calling the ry() method on the Quantum Circuit(an instance of QuantumCircuit class) and passing it the amount of rotation(in radians), and an integer for the Qubit on which RY Gate is to be applied.
+https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.RYGate
+rotates the qubit around the Y-axis

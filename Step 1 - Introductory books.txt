@@ -17,12 +17,37 @@ Krotov D. Demystifying Qubits. A Beginners Guide to Quantum Computing
 Hadamard gate (superposition)
 -------------------------------------------------------------------------
 https://en.wikipedia.org/wiki/Quantum_logic_gate
+https://www.quantum-inspire.com/kbase/hadamard/
 
 -------------------------------------------------------------------------
 Pauli Operators:
 https://www.sciencedirect.com/topics/computer-science/pauli-operator#:~:text=A%20Pauli%20Operator%20refers%20to,be%20represented%20in%20matrix%20form.
 
+
+Pauli matrices
+Identity matrix
+-------------------------------------------------------------------------
+
+
 https://www.youtube.com/watch?v=93-zLTppFZw
 >>>See NoteBooks\HelloWorldSimple.ipynb here
 
- 
+non-unitary operation
+unitary operation
+-------------------------------------------------------------------------
+Note 1
+
+
+gates:
+CX gate
+CZ gate
+X gate
+Y gate
+Z gate
+T gate
+S gate
+I gate
+
+RY gate
+--------------------------------------------------------------------------
+Note 2

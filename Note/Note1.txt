@@ -1,0 +1,3 @@
+Operations qc.reset(), qc.measure_all(), qc.initialize() and qc.measure() are non-unitary operations because they collapse the quantum state.
+
+In quantum mechanics, unitary operations, represented by unitary matrices, describe the evolution of a quantum state in a closed system, preserving the probability amplitudes and the total probability. 
