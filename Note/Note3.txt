@@ -1,0 +1,29 @@
+Example of an X gate multiplied by another X gate
+
+0 1 * 0 1
+1 0   1 0
+
+calulations are done in order of row and column for output
+
+a b 
+c d
+
+First is °|¯  then ¯| then |_ then _|
+                                    °
+									
+So:
+
+a * a then b * c = output a
+b * a then b * d = output b
+c * a then d * c = output c
+c * b then d * d = output d
+
+gives:
+
+1 0
+0 1
+
+an I gate
+
+
+									

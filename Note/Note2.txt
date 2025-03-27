@@ -1,9 +1,58 @@
-CZ gate represented as a matrix:
 
-| 1  0  0  0 |
-| 0  1  0  0 |
-| 0  0  1  0 |
-| 0  0  0  -1 |
+Gates represented as a matrix:
+
+CX
+  
+1 0 0 0
+0 0 0 1
+0 0 1 0
+0 1 0 0
+
+CY 
+  
+1 0 0 0
+0 0 0 -i
+0 0 1 0
+0 i 0 0
+
+CZ
+
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 -1
+
+T
+
+1 0
+0 e^iπ/4
+
+X
+0 1
+1 0
+
+Y
+0 -i
+i 0  where i represents the imaginary unit √(-1)
+
+Z
+1  0
+0 -1
+
+S
+
+1 0
+0 i
+
+I
+
+1 0
+0 1
+
+H
+
+1/sqrt(2) ( 1 1 )
+​          ( 0 -1 )
 
 phase parameter value:
 0 I-gate, 
@@ -14,3 +63,37 @@ phase parameter value:
 The RY Gate in Qiskit can be applied to any Qubit by calling the ry() method on the Quantum Circuit(an instance of QuantumCircuit class) and passing it the amount of rotation(in radians), and an integer for the Qubit on which RY Gate is to be applied.
 https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.RYGate
 rotates the qubit around the Y-axis
+
+
+
+i:
+
+In the real number system, there’s no number you can square to get a negative result (e.g., x² = -1 has no solution because any real number squared is non-negative). The imaginary unit i, defined as i² = -1, fills this gap. For instance:
+If x² = -1, then x = i or x = -i (since (-i)² = i² = -1).
+
+This allows us to solve polynomial equations like x² + 1 = 0 or even more complex ones, ensuring every polynomial of degree n has exactly n roots in the complex plane (a result known as the Fundamental Theorem of Algebra).
+
+2. The Complex Plane: A Geometric Meaning
+Complex numbers, built from the imaginary unit, are visualized in the complex plane. Here:
+The horizontal axis represents the real part (a in a + bi),
+
+The vertical axis represents the imaginary part (b in a + bi).
+
+For example, 3 + 4i is a point at (3, 4) in this plane. The imaginary unit i itself is at (0, 1).
+
+This gives i a geometric interpretation: multiplying a number by i rotates it 90 degrees counterclockwise in the complex plane. For instance:
+Start with 1 (at (1, 0)), multiply by i, and you get i (at (0, 1)).
+
+Multiply i by i again, and you get i² = -1 (at (-1, 0)), a 180-degree rotation from the starting point.
+
+This rotational property makes i meaningful for describing cyclic or oscillatory behavior.
+
+Example:
+In AC circuits, the current and voltage don’t always line up perfectly in time—they can be out of phase. 
+The imaginary unit helps us handle this phase difference.
+
+In quantum computing, i in the Y gate matrix similarly represents a 90-degree phase shift in a qubit’s state, 
+affecting how it interferes with other states—again, a real, measurable outcome. 
+
+
+
