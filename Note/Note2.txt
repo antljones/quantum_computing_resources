@@ -30,14 +30,27 @@ T
 X
 0 1
 1 0
+This gate corresponds to a rotation around the X-axis of the Bloch sphere by π radians (180 degrees). 
+Functionally, it acts like a quantum "NOT" gate: it flips the state of a qubit, 
+transforming |0) to |1) and |1) to |0)
+
+
 
 Y
 0 -i
 i 0  where i represents the imaginary unit √(-1)
+The Y gate is unique among the Pauli gates because it combines a bit flip with a 90-degree phase shift, 
+making it useful for creating complex superpositions and manipulating phases in quantum algorithms.
+
+
 
 Z
 1  0
 0 -1
+This gate corresponds to a rotation around the Z-axis of the Bloch sphere by π radians (180 degrees). 
+It leaves the |0) state unchanged (multiplying it by 1) and flips the phase of the |1) state (multiplying it by -1). 
+
+
 
 S
 
