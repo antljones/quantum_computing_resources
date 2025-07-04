@@ -1,3 +1,5 @@
+https://www.mathsisfun.com/algebra/matrix-multiplying.html
+
 Example of an X gate multiplied by another X gate
 
 0 1 * 0 1
@@ -13,10 +15,10 @@ First is °|¯  then ¯| then |_ then _|
 									
 So:
 
-a * a then b * c = output a
-b * a then b * d = output b
-c * a then d * c = output c
-c * b then d * d = output d
+a1 * a2 then b1 * c2 = output a
+a1 * b2 then b1 * d2 = output b
+c1 * a2 then d1 * c2 = output c
+c1 * b2 then d1 * d2 = output d
 
 gives:
 
@@ -26,4 +28,46 @@ gives:
 an I gate
 
 
-									
+Order is important, matrix multiplication is not commutative:
+
+Has to go from:
+
+M.....M
+ n     1
+ 
+Otherwise it will produce a different (wrong) result
+
+-----------------------------------------------------------------------
+
+Converting from functions to Matrices
+
+if Σ={0,1} There are four functions of this form (unique possibilities)
+f1,f2,f3,f4
+
+They can be represented in tables of values
+
+a  |f1 of (a)         a   |f2 of (a)        a  | f3 of (a)    a   | f4 of (a)
+-------               --------              ----------        -------------
+0  | 0                0   |  0              0  |   1           0  | 1
+1  | 0                1   |  1              1  |   0           1  | 1
+
+to create a matrix out of the functions, take each digit and if they are the same put a 1 and if they are different put a 0
+
+e.g.
+
+a b
+c d
+
+a and b become output a = M1
+a and d become output b = M2
+c and b become output c = M3
+c and d become output d = M4
+
+e.g
+
+M      M        M      M
+ 1      2        3      4  
+-----  ------   -----  -----
+1 1    1 0      0 1    0 0
+0 0    0 1      1 0    1 1
+
